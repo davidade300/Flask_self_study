@@ -1,0 +1,81 @@
+{
+    "explorer.compactFolders": false,
+    "window.titleBarStyle": "custom",
+    "workbench.activityBar.location": "top",
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "window.customTitleBarVisibility": "auto",
+    "python.defaultInterpreterPath": "venv/bin/python",
+    "editor.fontSize": 23,
+    "editor.guides.indentation": false,
+    "editor.fontFamily": "Monospace, 'Monospace', Monospace",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.colorDecorators": true,
+    "editor.defaultColorDecorators": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
+    "editor.guides.bracketPairs": false,
+    "notebook.markup.fontSize": 20,
+    "explorer.confirmPasteNative": false,
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Sublime Mariana ⎯ Semantic",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "punctuation.definition",
+                "settings": {
+                    "foreground": "#ffffff"
+                }
+            }
+        ]
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    },
+    "python.languageServer": "Pylance",
+    "editor.defaultFormatter": "ms-python.autopep8",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.formatOnSave": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "python.envFile": "venv",
+    "python.analysis.completeFunctionParens": true,
+    "emmet.includeLanguages": {
+        "django-html": "html"
+    },
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    },
+    "notebook.defaultFormatter": "ms-python.autopep8",
+    "window.zoomPerWindow": false,
+    "workbench.layoutControl.enabled": false,
+    "editor.stickyScroll.enabled": false,
+    "files.associations": {
+        "*.py": "python"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+}
