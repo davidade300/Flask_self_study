@@ -1,0 +1,2 @@
+# Repositório com estudos por conta própria sobre flask
+    - Pretendo usar esse repositório para aprender templating com Jinja e relembrar o que sei sobre o micro-framework (já que o mesmo é um dos utilizados para servir modelos de Machine Learning, algo que venho estudando com muito afinco), fora isso não há nenhuma intenção em especifica.
