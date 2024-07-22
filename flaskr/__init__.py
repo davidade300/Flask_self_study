@@ -8,6 +8,8 @@ import os
 
 from flask import Flask
 
+from flaskr import auth
+
 
 def create_app(test_config=None):
     """criacao e configuracao do app"""
@@ -38,6 +40,7 @@ def create_app(test_config=None):
 
     from . import db
 
-    db.init_app(app)
+    app.register_blueprint(auth.bp)  # type: ignore
+    # db.init_app(app)
 
     return app

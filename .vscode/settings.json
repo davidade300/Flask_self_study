@@ -1,3 +1,5 @@
 {
-    "editor.fontFamily": "Consola"
+    "editor.fontFamily": "'Courier New', Consolas, Monospace",
+    "editor.guides.indentation": true,
+    "terminal.integrated.fontFamily": "Courier New",
 }
