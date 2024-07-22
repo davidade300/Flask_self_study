@@ -1,5 +1,6 @@
 {
-    "editor.fontFamily": "'Courier New', Consolas, Monospace",
-    "editor.guides.indentation": true,
+    "editor.fontFamily": "Midpoint Pro",
+    "editor.guides.indentation": false,
     "terminal.integrated.fontFamily": "Courier New",
+    "editor.fontSize": 25,
 }
